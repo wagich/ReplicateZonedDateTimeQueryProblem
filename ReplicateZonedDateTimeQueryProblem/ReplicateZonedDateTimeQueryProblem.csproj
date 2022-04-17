@@ -13,11 +13,11 @@
 		<PackageReference Include="coverlet.collector" Version="3.1.0" />
 		<PackageReference Include="RavenDB.Client.NodaTime" Version="5.0.1" />
 		
-		<!-- RavenDB Version <5.3.2: test succeeds -->
+		<!-- RavenDB Version <=5.3.2: test succeeds -->
 		<!--<PackageReference Include="RavenDB.Client" Version="5.3.2" />
 		<PackageReference Include="RavenDB.TestDriver" Version="5.3.2" />-->
 
-		<!-- RavenDB Version >5.3.100: test fails -->
+		<!-- RavenDB Version >=5.3.100: test fails -->
 		<PackageReference Include="RavenDB.Client" Version="5.3.101" />
 		<PackageReference Include="RavenDB.TestDriver" Version="5.3.101" />
 	</ItemGroup>
